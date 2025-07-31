@@ -8,8 +8,11 @@ npm install
 ```
 
 ```sh
-2.Create a .env file in the project root (not inside backend/):
+2.Create a .env file in the project root and inside backend/):
+#root
 VITE_SUMMARY_API=http://localhost:3000/summarize
+
+#backend
 COHERE_API_KEY=your-cohere-api-key
 ```
 
